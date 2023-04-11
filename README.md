@@ -1,3 +1,7 @@
+# PLM-GAN-A-Large-Scale-Protein-Loop-Modeling-Using-pix2pix-GAN
+
+## The pix2pix GAN and PLM-GAN models have been utilized to generate and inpaint distance matrices of protein structures, addressing the presence of missing regions in various protein structures.
+
 Determining the tertiary structure of a protein is of great importance as it reveals the protein’s properties and functions. However, these structures are highly complex 3-dimensional configurations consisting of a variety of bonds, such as ionic, hydrophobic, and disulfide. Tertiary structures may exhibit missing regions or require the reconstruction of certain segments. The challenge of predicting and regenerating these regions is known as a loop modeling problem. In this work, we introduce novel models called pix2pix GAN and PLM-GAN for reconstructing missing regions of different protein structures and regenerating them while maintaining their features (backbone, local, and distal).
 
 This study presents novel models, pix2pix GAN and PLM-GAN, that are capable of reconstructing missing regions of various protein structures while preserving their features, including the backbone, local, and distal properties. Our contributions can be summarized in five parts: I) The application of pix2pix GAN to generate and in-paint distance matrices of protein structures. II) The development of the PLM-GAN model by integrating residual blocks into the U-Net network of the Generative Adversarial Network (GAN), based on the pix2pix GAN model. III) The proposal of a new loss function called the Missing to Real regions loss (LMTR) in the GAN. IV) The pairing of two different distance matrices, one for the native protein structure and the other for the same structure but with a loop region that changes in each successive epoch. V) Increasing the length of the missing region up to 30 amino acids and the length of the protein by 128 amino acids.
@@ -19,12 +23,3 @@ We applied the pix2pix GAN and PLM-GAN models to natural proteins (4ZCB, 3fjb, a
 #### We offer the inpaint network and its weights, along with the R code for folding protein structures.
 
 #### The dataset directory includes PDB IDs for proteins, along with code for downloading PDB files and generating distance matrices for the training and testing datasets.
-
-
-
-
-
-
-
-
-
