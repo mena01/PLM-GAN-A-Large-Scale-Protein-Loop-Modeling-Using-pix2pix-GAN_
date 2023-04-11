@@ -1,2 +1,3 @@
-# PLM-GAN-A-Large-Scale-Protein-Loop-Modeling-Using-pix2pix-GAN_
-PLM-GAN is based on pix2pix GAN, which was harnessed to generate and inpainted the loop region of the distance matrix of the protein structure.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fc13ca041e72abbdef53abec388afefb7cf7beacc6b0e4307e155364e0ce60f
+size 211
